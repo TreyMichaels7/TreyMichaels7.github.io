@@ -6,22 +6,20 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { cta, btn, linkedIn } = contact;
 
   return (
     <section id="contact">
       <Container>
-        <Title title="Skills" />
+        <Title title="Founders" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-              {cta || 'Languages: Java, PHP'}
-            </p>
+            <p className="contact-wrapper__text">{cta}</p>
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              href={linkedIn}
             >
               {btn || "Let's Talk"}
             </a>

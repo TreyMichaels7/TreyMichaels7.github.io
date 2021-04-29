@@ -6,7 +6,7 @@ import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { name, subtitle, cta } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -26,10 +26,9 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            {title || 'Hi, my name is'}{' '}
+            {/* {title}{' '} */}
             <span className="text-color-main">{name || 'Trey Michaels'}</span>
-            <br />
-            {subtitle || "I'm an Informatics Student at UW seeking Software Engineering Roles"}
+            {subtitle || ''}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
@@ -42,14 +41,14 @@ const Header = () => {
           </p>
           <p className="hero-cta">
             <span className="cta-btn text-color-main">
-              <a href="https://www.linkedin.com/in/treymichaels7/" smooth duration={1000}>
-                LinkedIn
+              <a href="https://findmyteam.io" smooth duration={1000}>
+                Link to Site
               </a>
             </span>
           </p>
           <p className="hero-cta">
             <span className="cta-btn text-color-main">
-              <a href="https://github.com/TreyMichaels7" smooth duration={1000}>
+              <a href="https://github.com/ashmannsyngle/FindMyTeam" smooth duration={1000}>
                 Github
               </a>
             </span>

@@ -12,15 +12,18 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Trey Michaels'}</title>
+        <title>{title || 'Find My Team'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Trey Michaels Personal Portfolio'} />
-        <meta property="og:site_name" content="Trey Michaels"/>
-        <meta property="og:title" content="Trey Michaels"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:image" content="../images/trey_profile.jpg"/>
-        <meta property="og:description" content={description || 'Trey Michaels Personal Portfolio'}/>
-        <meta property="og:url" content="https://treymichaels.com"/>
+        <meta property="og:site_name" content="Trey Michaels" />
+        <meta property="og:title" content="Trey Michaels" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="../images/trey_profile.jpg" />
+        <meta
+          property="og:description"
+          content={description || 'Trey Michaels Personal Portfolio'}
+        />
+        <meta property="og:url" content="https://treymichaels.com" />
       </Helmet>
       <App />
     </>
