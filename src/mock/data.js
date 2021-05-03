@@ -31,7 +31,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Search.jpg',
-    title: 'Easily Search for Courses, Teams, and Students',
+    title: 'Search for Courses, Teams, and Students',
     info:
       'With FindMyTeam, students can easily search for courses to join and find teams in the classes that they are in to potentially join. Students who are already in teams can search for peers in their classes to invite them to their group.',
     info2:
@@ -53,9 +53,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Group.jpg',
-    title: 'Easily Make Teams for Your Classes',
+    title: 'Make Teams for Your Classes',
     info:
-      'For any courses a user is in, they can quickly create their own team, set how many members they want to include, and quickly begin finding peers that they are interested in working with.',
+      'For any courses a user is in, they can easily create their own team, set how many members they want to include, and quickly begin finding peers that they are interested in working with.',
     info2:
       'Instructors will also have the ability to create teams for classes that they have created, and can manually put students into teams if they choose to do so.',
     url: 'https://github.com/ashmannsyngle/FindMyTeam',
@@ -64,7 +64,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Group_page.jpg',
-    title: 'Coordinate and communicate quickly with others',
+    title: 'Coordinate and communicate efficiently with others',
     info:
       'Within a team profile page, users can easily see who else is in the team and navigate to see their contact information. This will make it faster to reach out and establish an agreed upon means of communication.',
     info2:
