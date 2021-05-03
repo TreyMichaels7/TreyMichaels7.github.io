@@ -49,7 +49,7 @@ const Header = () => {
           <p className="hero-cta">
             <span className="cta-btn text-color-main">
               <a href="https://github.com/ashmannsyngle/FindMyTeam" smooth duration={1000}>
-                Github
+                Github / Handoff Documentation
               </a>
             </span>
           </p>

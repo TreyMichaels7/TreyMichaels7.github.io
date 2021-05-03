@@ -10,9 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'FindMyTeam: ',
-  subtitle:
-    'The platform dedicated to help you make the most out of your collaborative experiences.',
+  name: 'FindMyTeam, ',
+  subtitle: "because it shouldn't be a struggle to find a good team in your classes.",
   cta: '',
 };
 
