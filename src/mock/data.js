@@ -42,7 +42,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'Profile.jpg',
+    img: 'profile_preview.jpg',
     title: 'Make Your Own User Profile',
     info:
       'Making your own student account is quick and simple with FindMyTeam and no private information is needed other than a standard UW email and password for authentication. We also send out verification emails to ensure that our accounts are more secure.',
