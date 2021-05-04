@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'Landing.jpg',
   paragraphOne:
-    'FindMyTeam is a web application that is meant to help iSchool students find groups quickly and effectively. and also provide them with the opportunity to see a quick preview of potential partners so that they may be more well-informed as for how they are choosing their partners.',
+    'FindMyTeam is a web application that is meant to help iSchool students form teams quickly and effectively. and also provide them with the opportunity to see a quick preview of potential partners so that they may be more well-informed as for how they are choosing their partners.',
   paragraphTwo:
     'Our current version of FindMyTeam is meant to focus on supporting iSchool students, especially because it is fairly common for Informatics classes to have some form of major collaborative project. This would also benefit students looking for groups for their capstone project.',
   paragraphThree:
