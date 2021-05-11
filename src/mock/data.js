@@ -10,20 +10,20 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'FindMyTeam, ',
-  subtitle: "because it shouldn't be a struggle to find a good team in your classes.",
-  cta: '',
+  name: 'FindMyTeam: ',
+  subtitle: 'because finding a good group can be a pain.',
+  // cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'Landing.jpg',
   paragraphOne:
-    'FindMyTeam is a web application that is meant to help iSchool students form teams quickly and effectively. and also provide them with the opportunity to see a quick preview of potential partners so that they may be more well-informed as for how they are choosing their partners.',
+    'We want to help iSchool students form teams quickly and effectively. and also provide them with the opportunity to see a quick preview of potential partners so that they may be more well-informed as for how they are choosing their partners.',
   paragraphTwo:
-    'Our current version of FindMyTeam is meant to focus on supporting iSchool students, especially because it is fairly common for Informatics classes to have some form of major collaborative project. This would also benefit students looking for groups for their capstone project.',
-  paragraphThree:
-    'While our platform can be completely student driven, we want to encourage iSchool instructors to use this platform in their classes. If they want to use the platform to manually create groups, instructors accounts can also add individuals to classes, and then choose from those individuals to add to groups.',
+    'While our platform can be completely student driven, we want to encourage iSchool instructors to use this platform in their classes. By doing so, instructors accounts can also add individuals to classes, and then choose from those individuals to add to groups.',
+  paragraphThree: '',
+  resume: 'https://youtu.be/byOvlZYs9y4',
 };
 
 // PROJECTS DATA
@@ -76,9 +76,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Ashmann Syngle, Trey Michaels, Samuel Christ, Zikai Song',
-  btn: 'Contact Us',
-  linkedIn: 'https://www.linkedin.com/in/treymichaels7/',
+  // btn: 'Contact Us',
+  // linkedIn: 'https://www.linkedin.com/in/treymichaels7/',
 };
 
 // FOOTER DATA
@@ -87,7 +86,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/treymichaels7/',
+      url: 'https://www.linkedin.com/company/findmyteam/about/',
     },
     {
       id: nanoid(),
