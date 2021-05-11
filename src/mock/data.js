@@ -44,9 +44,9 @@ export const projectsData = [
     img: 'profile_preview.jpg',
     title: 'Make Your Own User Profile',
     info:
-      'Making your own student account is quick and simple with FindMyTeam and no private information is needed other than a standard UW email and password for authentication. We also send out verification emails to ensure that our accounts are more secure.',
+      'No private information is required other than a standard UW email and password for authentication. We also send out verification emails to ensure that our accounts are more secure.',
     info2:
-      'We ask that users provide us with some information such as their major, career preference, as well as some information about themselves to help find better student pairings for the individual. Students can also post links to other projects and sites that they may want to share such as Portfolio sites, Github, and/or LinkedIn.',
+      'We ask that users provide us with some basic information such as their major, career preference and personl links to help provide recommendations in pairings.',
     url: 'https://github.com/ashmannsyngle/FindMyTeam',
     repo: '', // if no repo, the button will not show up
   },
@@ -67,8 +67,7 @@ export const projectsData = [
     title: 'Coordinate and communicate efficiently with others',
     info:
       'Within a team profile page, users can easily see who else is in the team and navigate to see their contact information. This will make it faster to reach out and establish an agreed upon means of communication.',
-    info2:
-      'Group Owners can also send requests to reach out to other inviduals that do not currently have a team in the same course.',
+    info2: '',
     url: 'https://github.com/ashmannsyngle/FindMyTeam',
     repo: '', // if no repo, the button will not show up
   },
