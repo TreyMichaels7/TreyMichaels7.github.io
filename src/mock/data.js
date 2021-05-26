@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'While our platform can be completely student driven, we want to encourage iSchool instructors to use this platform in their classes. By doing so, instructors accounts can also add individuals to classes, and then choose from those individuals to add to groups.',
   paragraphThree: '',
-  resume: 'https://youtu.be/byOvlZYs9y4',
+  resume: 'https://youtu.be/XYtqZC6Ycrg',
 };
 
 // PROJECTS DATA

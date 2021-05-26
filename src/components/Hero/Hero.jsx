@@ -41,7 +41,7 @@ const Header = () => {
           </p>
           <p className="hero-cta">
             <span className="cta-btn text-color-main">
-              <a href="https://findmyteam.io" smooth duration={1000}>
+              <a href="https://findmyteam.netlify.app" smooth duration={1000}>
                 Link to Site
               </a>
             </span>
